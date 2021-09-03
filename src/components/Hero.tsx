@@ -4,17 +4,20 @@ import Behance from './icons/Behance'
 import LinkedIn from './icons/LinkedIn'
 
 const Hero = (): JSX.Element => (
-  <header className='bg-indigo-200 dark:bg-gray-800'>
+  <header
+    className='bg-indigo-200 dark:bg-gray-800'
+    style={{ clipPath: 'polygon(0 0, 100% 0, 100% 80%, 0 100%)' }}
+  >
     <div className='flex items-center container mx-auto h-screen px-8 md:px-24'>
       <div>
-        <div className='text-4xl md:text-6xl font-bold'>
+        <div className='text-4xl md:text-7xl font-bold'>
           Hey, I’m{' '}
           <span className='text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500'>
             Gabi
           </span>
           !
         </div>
-        <div className='text-2xl md:text-5xl font-bold pb-6'>
+        <div className='text-2xl md:text-6xl font-bold pb-8'>
           I’m a{' '}
           <span className='text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500'>
             CAD designer
