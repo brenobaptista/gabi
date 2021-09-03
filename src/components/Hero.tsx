@@ -1,5 +1,8 @@
 import Theme from './Theme'
 
+import Behance from './icons/Behance'
+import LinkedIn from './icons/LinkedIn'
+
 const Hero = (): JSX.Element => (
   <header className='bg-indigo-200 dark:bg-gray-800'>
     <div className='flex items-center container mx-auto h-screen px-8 md:px-24'>
@@ -18,7 +21,33 @@ const Hero = (): JSX.Element => (
           </span>
           .
         </div>
-        <Theme className='w-10 h-10 p-2 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
+        <button
+          type='button'
+          aria-label='Redirect to Behance'
+          className='w-10 h-10 p-2 mr-4 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
+        >
+          <a
+            href='https://www.behance.net/gabrieladasilva'
+            target='_blank'
+            rel='noreferrer noopener'
+          >
+            <Behance width={24} height={24} />
+          </a>
+        </button>
+        <button
+          type='button'
+          aria-label='Redirect to LinkedIn'
+          className='w-10 h-10 p-2 mr-4 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
+        >
+          <a
+            href='https://www.linkedin.com/in/gabriela-engineering'
+            target='_blank'
+            rel='noreferrer noopener'
+          >
+            <LinkedIn width={24} height={24} />
+          </a>
+        </button>
+        <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
       </div>
     </div>
   </header>
