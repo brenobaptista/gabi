@@ -3,7 +3,11 @@ import { useState, useEffect } from 'react'
 import Moon from './icons/Moon'
 import Sun from './icons/Sun'
 
-const Theme = (): JSX.Element => {
+interface Props {
+  className: string
+}
+
+const Theme = ({ className }: Props): JSX.Element => {
   const [darkMode, setDarkMode] = useState(false)
 
   useEffect(() => {
@@ -32,7 +36,7 @@ const Theme = (): JSX.Element => {
     <button
       aria-label='Toggle dark mode'
       type='button'
-      className='w-10 h-10 p-2 rounded bg-indigo-200 dark:bg-gray-800'
+      className={className}
       onClick={() => setDarkMode(!darkMode)}
     >
       {darkMode ? (
