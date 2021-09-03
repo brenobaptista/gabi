@@ -2,22 +2,23 @@ import Theme from './Theme'
 
 import Behance from './icons/Behance'
 import LinkedIn from './icons/LinkedIn'
+import Splotch from './icons/Splotch'
 
 const Hero = (): JSX.Element => (
   <header
     className='bg-indigo-200 dark:bg-gray-800'
     style={{ clipPath: 'polygon(0 0, 100% 0, 100% 80%, 0 100%)' }}
   >
-    <div className='flex items-center container mx-auto h-screen px-8 md:px-24'>
+    <div className='lg:flex items-center justify-around text-center lg:text-left container mx-auto h-screen pt-16'>
       <div>
-        <div className='text-4xl md:text-7xl font-bold'>
+        <div className='text-4xl sm:text-7xl font-bold'>
           Hey, I’m{' '}
           <span className='text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500'>
             Gabi
           </span>
           !
         </div>
-        <div className='text-2xl md:text-6xl font-bold pb-8'>
+        <div className='text-2xl sm:text-6xl font-bold pb-8'>
           I’m a{' '}
           <span className='text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-500'>
             CAD designer
@@ -51,6 +52,9 @@ const Hero = (): JSX.Element => (
           </a>
         </button>
         <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
+      </div>
+      <div className='flex justify-around pt-16 lg:pt-0'>
+        <Splotch width={200} height={200} />
       </div>
     </div>
   </header>
