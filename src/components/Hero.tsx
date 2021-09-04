@@ -6,10 +6,11 @@ import Splotch from './icons/Splotch'
 
 const Hero = (): JSX.Element => (
   <header
-    className='bg-indigo-200 dark:bg-gray-800'
+    className='bg-hero bg-cover bg-fixed'
     style={{ clipPath: 'polygon(0 0, 100% 0, 100% 80%, 0 100%)' }}
   >
-    <div className='lg:flex items-center justify-around text-center lg:text-left container mx-auto h-screen pt-16'>
+    <div className='absolute h-full w-full top-0 z-10 bg-purple-300 dark:bg-gray-800 opacity-90 dark:opacity-95' />
+    <div className='lg:flex items-center justify-around text-center lg:text-left container mx-auto h-screen pt-16 z-20 relative'>
       <div>
         <div className='text-4xl sm:text-7xl font-bold'>
           Hey, I’m{' '}
@@ -53,7 +54,7 @@ const Hero = (): JSX.Element => (
         </button>
         <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
       </div>
-      <div className='flex justify-around pt-16 lg:pt-0'>
+      <div className='flex justify-around pt-16 lg:pt-0 animate-pulse'>
         <Splotch width={200} height={200} />
       </div>
     </div>

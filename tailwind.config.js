@@ -2,10 +2,16 @@ module.exports = {
   purge: ['./src/pages/**/*.{ts,tsx}', './src/components/**/*.{ts,tsx}'],
   darkMode: 'class',
   theme: {
-    extend: {}
+    extend: {
+      backgroundImage: () => ({
+        'hero': "url('/images/hero.jpg')"
+      })
+    }
   },
   variants: {
-    extend: {}
+    extend: {
+      opacity: ['dark']
+    }
   },
   plugins: []
 }
