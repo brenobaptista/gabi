@@ -1,6 +1,7 @@
 import Theme from './Theme'
 
 import Behance from './icons/Behance'
+import Email from './icons/Email'
 import LinkedIn from './icons/LinkedIn'
 import Splotch from './icons/Splotch'
 
@@ -50,6 +51,15 @@ const Hero = (): JSX.Element => (
             rel='noreferrer noopener'
           >
             <LinkedIn width={24} height={24} />
+          </a>
+        </button>
+        <button
+          type='button'
+          aria-label='Contact me by email'
+          className='w-10 h-10 p-2 mr-4 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
+        >
+          <a href='mailto:gabriela.projetista3d@gmail.com'>
+            <Email width={24} height={24} />
           </a>
         </button>
         <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
