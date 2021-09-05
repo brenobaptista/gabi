@@ -9,9 +9,7 @@ module.exports = {
     }
   },
   variants: {
-    extend: {
-      opacity: ['dark']
-    }
+    extend: {}
   },
   plugins: []
 }

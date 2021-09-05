@@ -9,8 +9,8 @@ const Hero = (): JSX.Element => (
     className='bg-hero bg-cover bg-fixed'
     style={{ clipPath: 'polygon(0 0, 100% 0, 100% 80%, 0 100%)' }}
   >
-    <div className='absolute h-full w-full top-0 z-10 bg-purple-300 dark:bg-gray-800 opacity-90 dark:opacity-95' />
-    <div className='lg:flex items-center justify-around text-center lg:text-left container mx-auto h-screen pt-16 z-20 relative'>
+    <div className='absolute h-screen w-screen bg-purple-300 dark:bg-gray-800 opacity-90' />
+    <div className='lg:flex items-center justify-around text-center lg:text-left container mx-auto h-screen pt-16 relative'>
       <div>
         <div className='text-4xl sm:text-7xl font-bold'>
           Hey, I’m{' '}
