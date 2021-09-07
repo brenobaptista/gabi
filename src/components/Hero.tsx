@@ -1,9 +1,9 @@
 import Theme from './Theme'
 
 import Behance from './icons/Behance'
+import Cog from './icons/Cog'
 import Email from './icons/Email'
 import LinkedIn from './icons/LinkedIn'
-import Splotch from './icons/Splotch'
 
 const Hero = (): JSX.Element => (
   <header
@@ -54,8 +54,8 @@ const Hero = (): JSX.Element => (
         </a>
         <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
       </div>
-      <div className='flex justify-around pt-16 lg:pt-0 animate-pulse'>
-        <Splotch width={200} height={200} />
+      <div className='flex justify-around pt-16 lg:pt-0 animate-spin'>
+        <Cog width={200} height={200} />
       </div>
     </div>
   </header>

@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       backgroundImage: () => ({
         'hero': "url('/images/hero.jpg')"
-      })
+      }),
+      animation: {
+        spin: 'spin 20s linear infinite'
+      }
     }
   },
   variants: {
