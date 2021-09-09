@@ -54,7 +54,7 @@ const Hero = (): JSX.Element => (
         </a>
         <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
       </div>
-      <div className='flex justify-around pt-16 lg:pt-0 animate-spin'>
+      <div className='flex justify-around pt-16 lg:pt-0'>
         <Cog width={200} height={200} />
       </div>
     </div>

@@ -9,6 +9,7 @@ const Cog = ({ width, height }: Props): JSX.Element => (
     viewBox='0 0 512 512'
     width={width}
     height={height}
+    className='animate-spin'
   >
     <title>Logo</title>
     <defs>
