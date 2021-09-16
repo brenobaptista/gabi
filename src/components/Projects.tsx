@@ -60,14 +60,11 @@ const Projects = (): JSX.Element => (
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
             <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
-              <img
-                src='/images/projects/alignment.png'
-                alt='Mechanical alignment'
-              />
+              <img src='/images/projects/shaft.png' alt='Shaft' />
             </div>
             <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
               <span className='text-3xl font-bold tracking-wider leading-relaxed'>
-                Mechanical alignment
+                Shaft
               </span>
             </div>
           </div>
