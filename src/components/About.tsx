@@ -1,7 +1,7 @@
 const About = (): JSX.Element => (
   <section>
     <div className='container mx-auto'>
-      <div className='lg:flex items-center justify-around px-8 pt-16 pb-24'>
+      <div className='lg:flex items-center justify-around px-8 pt-16 pb-32'>
         <img
           src='/images/gabi.png'
           alt='Gabriela da Silva'

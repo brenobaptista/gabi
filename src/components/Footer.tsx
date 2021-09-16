@@ -1,7 +1,7 @@
 import Heart from './icons/Heart'
 
 const Footer = (): JSX.Element => (
-  <footer className='bg-purple-300 dark:bg-gray-800'>
+  <footer>
     <div className='text-center py-2 flex flex-col sm:block'>
       <span>© {new Date().getFullYear()} Gabriela da Silva. </span>
       <span>
@@ -12,7 +12,7 @@ const Footer = (): JSX.Element => (
         by{' '}
         <a
           href='https://brenobaptista.vercel.app/'
-          className='text-purple-900 dark:text-gray-400 hover:opacity-75'
+          className='text-purple-700 dark:text-gray-400 hover:opacity-75'
           target='_blank'
           rel='noreferrer noopener'
         >
