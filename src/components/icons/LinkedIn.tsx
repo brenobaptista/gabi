@@ -3,7 +3,7 @@ interface Props {
   height: number
 }
 
-const Behance = ({ width, height }: Props): JSX.Element => (
+const LinkedIn = ({ width, height }: Props): JSX.Element => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     viewBox='0 0 448 512'
@@ -16,4 +16,4 @@ const Behance = ({ width, height }: Props): JSX.Element => (
   </svg>
 )
 
-export default Behance
+export default LinkedIn
