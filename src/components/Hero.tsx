@@ -27,32 +27,34 @@ const Hero = (): JSX.Element => (
           </span>
           .
         </div>
-        <a
-          href='https://www.behance.net/gabrieladasilva'
-          target='_blank'
-          rel='noreferrer noopener'
-          aria-label='Open Behance'
-          className='inline-flex w-10 h-10 p-2 mr-4 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
-        >
-          <Behance width={24} height={24} />
-        </a>
-        <a
-          href='https://www.linkedin.com/in/gabriela-engineering'
-          target='_blank'
-          rel='noreferrer noopener'
-          aria-label='Open LinkedIn'
-          className='inline-flex w-10 h-10 p-2 mr-4 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
-        >
-          <LinkedIn width={24} height={24} />
-        </a>
-        <a
-          href='mailto:gabriela.projetista3d@gmail.com'
-          aria-label='Contact me by email'
-          className='inline-flex w-10 h-10 p-2 mr-4 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
-        >
-          <Email width={24} height={24} />
-        </a>
-        <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
+        <div className='flex space-x-4'>
+          <a
+            href='https://www.behance.net/gabrieladasilva'
+            target='_blank'
+            rel='noreferrer noopener'
+            aria-label='Open Behance'
+            className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
+          >
+            <Behance width={24} height={24} />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/gabriela-engineering'
+            target='_blank'
+            rel='noreferrer noopener'
+            aria-label='Open LinkedIn'
+            className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
+          >
+            <LinkedIn width={24} height={24} />
+          </a>
+          <a
+            href='mailto:gabriela.projetista3d@gmail.com'
+            aria-label='Contact me by email'
+            className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500'
+          >
+            <Email width={24} height={24} />
+          </a>
+          <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
+        </div>
       </div>
       <div className='flex justify-around pt-16 lg:pt-0'>
         <Cog width={200} height={200} />
