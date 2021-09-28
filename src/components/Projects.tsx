@@ -6,10 +6,10 @@ const Projects = (): JSX.Element => (
       <div className='flex flex-wrap'>
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img src='/images/projects/conveyor.png' alt='Conveyor belt' />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/106356227/Correia-Transportadora'
@@ -30,10 +30,10 @@ const Projects = (): JSX.Element => (
 
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img src='/images/projects/winch.png' alt='Hydraulic winch' />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/111241593/Guincho-Hidraulico'
@@ -54,10 +54,10 @@ const Projects = (): JSX.Element => (
 
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img src='/images/projects/impeller.png' alt='Impeller' />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/121208735/Impelidor'
@@ -78,13 +78,13 @@ const Projects = (): JSX.Element => (
 
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img
                 src='/images/projects/container.png'
                 alt='Plastic container'
               />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/106044465/Caixa-plastica'
@@ -105,10 +105,10 @@ const Projects = (): JSX.Element => (
 
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img src='/images/projects/shaft.png' alt='Shaft' />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/106571881/Eixo-mecanico'
@@ -129,10 +129,10 @@ const Projects = (): JSX.Element => (
 
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img src='/images/projects/support.png' alt='Laptop support' />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/100552683/Suporte-de-madeira-para-notebook'
@@ -153,10 +153,10 @@ const Projects = (): JSX.Element => (
 
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img src='/images/projects/table.png' alt='Wooden table' />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/108563695/Mesa-Industrial'
@@ -177,10 +177,10 @@ const Projects = (): JSX.Element => (
 
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img src='/images/projects/flowerpot.png' alt='Flowerpot' />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/120371631/Vaso-Customizado'
@@ -201,13 +201,13 @@ const Projects = (): JSX.Element => (
 
         <div className='w-full lg:w-1/3 pb-32'>
           <div className='group flex justify-center items-center'>
-            <div className='group-hover:opacity-25 transition duration-300 ease-in-out'>
+            <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <img
                 src='/images/projects/component.png'
                 alt='Custom component'
               />
             </div>
-            <div className='absolute opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out'>
+            <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
               <div className='flex justify-center mb-2'>
                 <a
                   href='https://www.behance.net/gallery/117784023/Componente-mecanico'

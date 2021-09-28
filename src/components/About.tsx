@@ -5,7 +5,7 @@ const About = (): JSX.Element => (
         <img
           src='/images/gabi.png'
           alt='Gabriela da Silva'
-          className='h-60 w-60 rounded-full bg-purple-300 dark:bg-gray-800 mx-auto lg:mx-0 mb-16 lg:mb-0 animate-eclipse'
+          className='h-60 w-60 rounded-full bg-purple-300 dark:bg-gray-800 mx-auto lg:mx-0 mb-16 lg:mb-0 motion-safe:animate-eclipse'
         />
         <div>
           <h1 className='text-3xl font-bold tracking-wide pb-4'>ABOUT ME</h1>
