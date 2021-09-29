@@ -9,7 +9,7 @@ import support from '../../public/images/projects/support.png'
 import Behance from './icons/Behance'
 
 const Projects = (): JSX.Element => (
-  <section className='bg-purple-300 dark:bg-gray-800'>
+  <section className='bg-purple-200 dark:bg-gray-800'>
     <div className='container mx-auto px-8 py-32'>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16'>
         <div className='group flex justify-center items-center'>

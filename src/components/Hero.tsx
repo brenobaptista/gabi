@@ -11,7 +11,7 @@ const Hero = (): JSX.Element => (
     className='bg-hero bg-cover bg-fixed'
     style={{ clipPath: 'polygon(0 0, 100% 0, 100% 80%, 0 100%)' }}
   >
-    <div className='absolute h-screen w-full bg-purple-300 dark:bg-gray-800 opacity-80 dark:opacity-90' />
+    <div className='absolute h-screen w-full bg-purple-200 dark:bg-gray-800 opacity-80 dark:opacity-90' />
     <div className='lg:flex items-center justify-around text-center lg:text-left container mx-auto h-screen pt-16 relative'>
       <div>
         <div className='text-4xl sm:text-7xl font-bold'>
@@ -64,7 +64,7 @@ const Hero = (): JSX.Element => (
         priority
         width={240}
         height={240}
-        className='rounded-full bg-purple-200 dark:bg-gray-900'
+        className='rounded-full bg-purple-100 dark:bg-gray-900'
       />
     </div>
   </header>
