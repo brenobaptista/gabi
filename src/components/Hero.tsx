@@ -27,7 +27,7 @@ const Hero = (): JSX.Element => (
           </span>
           .
         </div>
-        <div className='flex space-x-4'>
+        <div className='flex space-x-4 justify-center lg:justify-start'>
           <a
             href='https://www.behance.net/gabrieladasilva'
             target='_blank'

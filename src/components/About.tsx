@@ -9,13 +9,13 @@ const About = (): JSX.Element => (
         />
         <div>
           <h1 className='text-3xl font-bold tracking-wide pb-4'>ABOUT ME</h1>
-          <p className='max-w-xl leading-loose pb-4 text-base lg:text-lg text-justify'>
+          <p className='lg:max-w-xl leading-loose pb-4 text-base lg:text-lg text-justify'>
             I’m Gabriela, a mechanical engineer from Brazil. I’m passionate
             about product design. Currently, I work as a freelancer CAD
             designer. I have experience in complex mechanical design projects
             and 3D printing prototypes.
           </p>
-          <p className='max-w-xl leading-loose pb-4 text-base lg:text-lg text-justify'>
+          <p className='lg:max-w-xl leading-loose pb-4 text-base lg:text-lg text-justify'>
             My services consist mainly of 3D modeling, 2D technical drawing and
             rendering. I usually use tools like SolidWorks, Autodesk Fusion 360
             and AutoCad in my projects. I’m constantly tinkering with new
