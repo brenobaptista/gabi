@@ -130,69 +130,6 @@ const Projects = (): JSX.Element => (
             </span>
           </div>
         </div>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/table.png' alt='Wooden table' />
-          </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <div className='flex justify-center mb-2'>
-              <a
-                href='https://www.behance.net/gallery/108563695/Mesa-Industrial'
-                target='_blank'
-                rel='noreferrer noopener'
-                aria-label='Open this project on Behance'
-                className='inline-flex p-2 hover:opacity-75 rounded border-solid border-2 border-gray-800 dark:border-gray-200'
-              >
-                <Behance width={24} height={24} />
-              </a>
-            </div>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
-              Wooden table
-            </span>
-          </div>
-        </div>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/flowerpot.png' alt='Flowerpot' />
-          </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <div className='flex justify-center mb-2'>
-              <a
-                href='https://www.behance.net/gallery/120371631/Vaso-Customizado'
-                target='_blank'
-                rel='noreferrer noopener'
-                aria-label='Open this project on Behance'
-                className='inline-flex p-2 hover:opacity-75 rounded border-solid border-2 border-gray-800 dark:border-gray-200'
-              >
-                <Behance width={24} height={24} />
-              </a>
-            </div>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
-              Flowerpot
-            </span>
-          </div>
-        </div>
-        <div className='group flex justify-center items-center'>
-          <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/component.png' alt='Custom component' />
-          </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <div className='flex justify-center mb-2'>
-              <a
-                href='https://www.behance.net/gallery/117784023/Componente-mecanico'
-                target='_blank'
-                rel='noreferrer noopener'
-                aria-label='Open this project on Behance'
-                className='inline-flex p-2 hover:opacity-75 rounded border-solid border-2 border-gray-800 dark:border-gray-200'
-              >
-                <Behance width={24} height={24} />
-              </a>
-            </div>
-            <span className='text-3xl font-bold tracking-wider leading-relaxed'>
-              Custom component
-            </span>
-          </div>
-        </div>
       </div>
     </div>
   </section>
