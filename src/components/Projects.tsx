@@ -16,7 +16,7 @@ const Projects = (): JSX.Element => (
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={conveyor} alt='Conveyor belt' placeholder='blur' />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
               <a
                 href='https://www.behance.net/gallery/106356227/Correia-Transportadora'
@@ -37,7 +37,7 @@ const Projects = (): JSX.Element => (
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={winch} alt='Hydraulic winch' placeholder='blur' />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
               <a
                 href='https://www.behance.net/gallery/111241593/Guincho-Hidraulico'
@@ -58,7 +58,7 @@ const Projects = (): JSX.Element => (
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={impeller} alt='Impeller' placeholder='blur' />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
               <a
                 href='https://www.behance.net/gallery/121208735/Impelidor'
@@ -79,7 +79,7 @@ const Projects = (): JSX.Element => (
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={container} alt='Plastic container' placeholder='blur' />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
               <a
                 href='https://www.behance.net/gallery/106044465/Caixa-plastica'
@@ -100,7 +100,7 @@ const Projects = (): JSX.Element => (
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={shaft} alt='Shaft' placeholder='blur' />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
               <a
                 href='https://www.behance.net/gallery/106571881/Eixo-mecanico'
@@ -121,7 +121,7 @@ const Projects = (): JSX.Element => (
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={support} alt='Laptop support' placeholder='blur' />
           </div>
-          <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
               <a
                 href='https://www.behance.net/gallery/100552683/Suporte-de-madeira-para-notebook'
