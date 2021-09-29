@@ -25,9 +25,10 @@ module.exports = {
   },
   variants: {
     extend: {
+      opacity: ['dark'],
       animation: ['motion-safe'],
       transitionProperty: ['motion-reduce']
-    },
+    }
   },
   plugins: []
 }

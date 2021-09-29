@@ -1,16 +1,14 @@
-import Theme from './Theme'
-
 import Behance from './icons/Behance'
-import Cog from './icons/Cog'
 import Email from './icons/Email'
 import LinkedIn from './icons/LinkedIn'
+import Theme from './Theme'
 
 const Hero = (): JSX.Element => (
   <header
     className='bg-hero bg-cover bg-fixed'
     style={{ clipPath: 'polygon(0 0, 100% 0, 100% 80%, 0 100%)' }}
   >
-    <div className='absolute h-screen w-full bg-purple-300 dark:bg-gray-800 opacity-90' />
+    <div className='absolute h-screen w-full bg-purple-300 dark:bg-gray-800 opacity-80 dark:opacity-90' />
     <div className='lg:flex items-center justify-around text-center lg:text-left container mx-auto h-screen pt-16 relative'>
       <div>
         <div className='text-4xl sm:text-7xl font-bold'>
@@ -56,9 +54,11 @@ const Hero = (): JSX.Element => (
           <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
         </div>
       </div>
-      <div className='flex justify-around pt-16 lg:pt-0'>
-        <Cog width={200} height={200} />
-      </div>
+      <img
+        src='/images/gabi.png'
+        alt='Gabriela da Silva'
+        className='h-60 w-60 mx-auto my-16 lg:mx-0 lg:my-0 rounded-full bg-purple-300 dark:bg-gray-800 motion-safe:animate-eclipse'
+      />
     </div>
   </header>
 )

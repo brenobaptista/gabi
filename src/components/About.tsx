@@ -1,12 +1,12 @@
+import Cog from './icons/Cog'
+
 const About = (): JSX.Element => (
   <section>
     <div className='container mx-auto'>
       <div className='lg:flex items-center justify-around px-8 pt-16 pb-32'>
-        <img
-          src='/images/gabi.png'
-          alt='Gabriela da Silva'
-          className='h-60 w-60 rounded-full bg-purple-300 dark:bg-gray-800 mx-auto lg:mx-0 mb-16 lg:mb-0 motion-safe:animate-eclipse'
-        />
+        <div className='flex justify-center mb-16 lg:mb-0'>
+          <Cog width={200} height={200} />
+        </div>
         <div>
           <h1 className='text-3xl font-bold tracking-wide pb-4'>ABOUT ME</h1>
           <p className='lg:max-w-xl leading-loose pb-4 text-base lg:text-lg text-justify'>
