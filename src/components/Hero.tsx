@@ -1,3 +1,6 @@
+import Image from 'next/image'
+
+import gabi from '../../public/images/gabi.png'
 import Behance from './icons/Behance'
 import Email from './icons/Email'
 import LinkedIn from './icons/LinkedIn'
@@ -25,7 +28,7 @@ const Hero = (): JSX.Element => (
           </span>
           .
         </div>
-        <div className='flex space-x-4 justify-center lg:justify-start'>
+        <div className='flex space-x-4 justify-center lg:justify-start mb-16 lg:mb-0'>
           <a
             href='https://www.behance.net/gabrieladasilva'
             target='_blank'
@@ -54,10 +57,14 @@ const Hero = (): JSX.Element => (
           <Theme className='w-10 h-10 p-2 hover:opacity-75 rounded bg-gradient-to-br from-purple-500 to-pink-500' />
         </div>
       </div>
-      <img
-        src='/images/gabi.png'
+      <Image
+        src={gabi}
         alt='Gabriela da Silva'
-        className='h-60 w-60 mx-auto my-16 lg:mx-0 lg:my-0 rounded-full bg-purple-300 dark:bg-gray-800 motion-safe:animate-eclipse'
+        placeholder='blur'
+        priority
+        width={240}
+        height={240}
+        className='rounded-full bg-purple-200 dark:bg-gray-900'
       />
     </div>
   </header>

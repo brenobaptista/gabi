@@ -1,3 +1,11 @@
+import Image from 'next/image'
+
+import conveyor from '../../public/images/projects/conveyor.png'
+import winch from '../../public/images/projects/winch.png'
+import impeller from '../../public/images/projects/impeller.png'
+import container from '../../public/images/projects/container.png'
+import shaft from '../../public/images/projects/shaft.png'
+import support from '../../public/images/projects/support.png'
 import Behance from './icons/Behance'
 
 const Projects = (): JSX.Element => (
@@ -6,7 +14,7 @@ const Projects = (): JSX.Element => (
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16'>
         <div className='group flex justify-center items-center'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/conveyor.png' alt='Conveyor belt' />
+            <Image src={conveyor} alt='Conveyor belt' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
@@ -27,7 +35,7 @@ const Projects = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/winch.png' alt='Hydraulic winch' />
+            <Image src={winch} alt='Hydraulic winch' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
@@ -48,7 +56,7 @@ const Projects = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/impeller.png' alt='Impeller' />
+            <Image src={impeller} alt='Impeller' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
@@ -69,7 +77,7 @@ const Projects = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/container.png' alt='Plastic container' />
+            <Image src={container} alt='Plastic container' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
@@ -90,7 +98,7 @@ const Projects = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/shaft.png' alt='Shaft' />
+            <Image src={shaft} alt='Shaft' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
@@ -111,7 +119,7 @@ const Projects = (): JSX.Element => (
         </div>
         <div className='group flex justify-center items-center'>
           <div className='group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
-            <img src='/images/projects/support.png' alt='Laptop support' />
+            <Image src={support} alt='Laptop support' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <div className='flex justify-center mb-2'>
