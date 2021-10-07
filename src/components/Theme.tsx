@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Theme = ({ className }: Props): JSX.Element => {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState<boolean>(false)
 
   useEffect(() => {
     if (
