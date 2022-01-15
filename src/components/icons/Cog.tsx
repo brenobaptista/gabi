@@ -10,8 +10,8 @@ const Cog = ({ width, height }: Props): JSX.Element => (
     width={width}
     height={height}
     className='motion-safe:animate-spin'
+    aria-hidden='true'
   >
-    <title>Logo</title>
     <defs>
       <linearGradient id='lgrad' x1='0%' y1='0%' x2='100%' y2='100%'>
         <stop offset='0' style={{ stopColor: '#8B5CF6' }} />
