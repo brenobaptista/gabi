@@ -1,4 +1,4 @@
-import Cog from './icons/Cog'
+import { Cog } from './icons'
 
 const About = (): JSX.Element => (
   <section>

@@ -6,7 +6,7 @@ import impeller from '../../public/images/projects/impeller.png'
 import container from '../../public/images/projects/container.png'
 import shaft from '../../public/images/projects/shaft.png'
 import support from '../../public/images/projects/support.png'
-import Behance from './icons/Behance'
+import { Behance } from './icons'
 
 const Projects = (): JSX.Element => (
   <section className='bg-purple-200 dark:bg-gray-800'>

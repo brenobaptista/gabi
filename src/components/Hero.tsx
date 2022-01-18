@@ -1,9 +1,7 @@
 import Image from 'next/image'
 
 import gabi from '../../public/images/gabi.png'
-import Behance from './icons/Behance'
-import Email from './icons/Email'
-import LinkedIn from './icons/LinkedIn'
+import { Behance, Email, LinkedIn } from './icons'
 import Theme from './Theme'
 
 const Hero = (): JSX.Element => (
