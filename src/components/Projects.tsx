@@ -9,7 +9,7 @@ import support from '../../public/images/projects/support.png'
 import { Behance } from './icons'
 
 const Projects = (): JSX.Element => (
-  <section className='bg-purple-200 dark:bg-gray-800'>
+  <section className='bg-violet-200 dark:bg-gray-800'>
     <div className='container mx-auto px-8 py-16'>
       <h2 className='text-3xl font-bold tracking-wide text-center mb-4'>
         MY PROJECTS
@@ -19,7 +19,7 @@ const Projects = (): JSX.Element => (
       </p>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16'>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={conveyor} alt='Conveyor belt' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -40,7 +40,7 @@ const Projects = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={winch} alt='Hydraulic winch' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -61,7 +61,7 @@ const Projects = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={impeller} alt='Impeller' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -82,7 +82,7 @@ const Projects = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={container} alt='Plastic container' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -103,7 +103,7 @@ const Projects = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={shaft} alt='Shaft' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
@@ -124,7 +124,7 @@ const Projects = (): JSX.Element => (
           </div>
         </div>
         <div className='group flex justify-center items-center'>
-          <div className='filter group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
+          <div className='group-hover:blur-sm group-hover:opacity-50 dark:group-hover:opacity-25 transition motion-reduce:transition-none duration-300 ease-in-out'>
             <Image src={support} alt='Laptop support' placeholder='blur' />
           </div>
           <div className='absolute opacity-0 group-hover:opacity-100 focus-within:opacity-100 transition motion-reduce:transition-none duration-300 ease-in-out'>
